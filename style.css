@@ -27,5 +27,7 @@
 }
 
 .cadastro:hover{
+    font-size: 58px;
     color: black;
+    text-decoration: underline;
 }
