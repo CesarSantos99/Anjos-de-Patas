@@ -1,0 +1,6 @@
+#conteine{
+    width: 100vw;   /*100% da largura da  tela*/
+    height: 100vw;   /* 100% da altura da tela*/
+    background-color: black;
+    background: url(imagens/gatos.png);
+}
