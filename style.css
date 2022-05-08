@@ -42,18 +42,22 @@
     right: 43px;
     top: 30px;
 }
-
+.entrar:hover{
+    font-size: 38px;
+    color: black;
+    text-decoration: none;
+}
 /* fim cabeçalho */
 
 /* página de entrada */
 
-#fundo2{
-    width: 100vw;   /*100% da largura da  tela*/
-    height: 30vw;   /* 100% da altura da tela*/
-    background:url(imagens/entada.jpg);
-    background-size: 100%;
-    background-attachment:fixed;
-    color: #000;
+#entrada{
+    width: 50vw;
+    height: 50vw;
+    background: url(imagens/entrada.jpg) ;
+    background-attachment: fixed;
+    background-size: cover;
 }
+
 
 
