@@ -4,14 +4,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
     <title>Anjos de Patas</title>
 </head>
 <body>
     <header>
-        <ul>
-            <a href=""></a> Home
+        <div>
+            <ul class="cadastro-pet">
+                <a class="home" href="index.html">Home</a>
+                <a class="login-pet" href="entrar.html">Login</a>
+            <img class="imglogo" src="imagens/logo.jpg" alt="capa">
         </ul>
+     </div>
     </header>
+    <main>
+        <h1>Cadastre-se</h1>
+        <form>
+            <div class="pet">
+                <label for="pet">Animal</label>
+                <input type="text" id="pet" required placeholder="Ex:Cachorro, Gato...">
+            </div>
+
+            <div class="pet">
+                <label for="nome">Nome do Pet</label>
+                <input type="text" id="nome" required placeholder="Ex: Nima, Luna">
+            </div>
+
+            <div class="pet">
+                <label for="Proprietario">Nome Proprietario</label>
+                <input type="text" id="Proprietario" required placeholder="Ex: João ...">
+            </div>
+
+            <div class="sexo">
+                <label for="Sexo">Sexo</label>
+                <input type="radio" id="sexo" name="sexo" value="sexo"> Macho
+                <input type="radio" id="sexo" name="sexo" value="sexo">Femia
+            </div>
+
+            <div class="pet">
+                <label for="Nacimento">Nacimento</label r>
+                <input type="date" id="Nacimento" required>
+            </div>
+
+            <div class="porte">
+                <label for="porte">Porte</label>
+                <input type="radio" name="porte" id="porte" checked>Pequeno
+                <input type="radio" name="porte" id="porte">Médio
+                <input type="radio" name="porte" id="porte">Grande
+            </div>
+
+            <fieldset>
+                    <legend>Como prefere o nosso contato?</legend>
+                    <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
+                    
+                    <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
+                    
+                    <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
+            </fieldset>
+
+        <input class="entra-cadastro" type="submit" value="Entrar">
+
+        </form>
+    </main>
     
 </body>
 </html>

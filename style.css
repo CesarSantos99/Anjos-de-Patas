@@ -117,3 +117,79 @@
     font-size: 30px ;
     transform: scale(1);
 }
+
+/* pagina de cadastro */
+
+.login-pet{
+    position: absolute;
+    right: 40px;
+    top: 50px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000;
+}
+
+.home{
+    position: absolute;
+    left: 40px;
+    top: 50px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000;
+}
+
+.login-pet:hover, .home:hover{
+    font-size: 29px;
+    text-decoration: underline;
+}
+
+.imglogo{
+    width: 100%;
+    height: 240px;
+}
+
+main h1{
+    text-align: center;
+    padding: 30px 0 30px 0;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.pet{
+    margin: 20px 0 25px 50px;
+}
+
+.pet label, .porte label, legend, .sexo label{
+    font-size: 23px;
+    font-weight: bold;
+    display: block;
+
+}
+
+.pet input{
+    width: 40%;
+    height: 28px;
+    margin: 20px 0 20px 0;
+}
+
+.porte, .sexo, fieldset {
+     margin:30px 0 10px 50px ;
+     padding: 10px 10px 10px 10px;
+}
+
+
+
+.entra-cadastro{
+    width: 30%;
+    padding: 10px;
+    margin: 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    color: blue;
+    background: orange;
+}
+
+.entra-cadastro:hover{
+    font-size: 25px;
+}
