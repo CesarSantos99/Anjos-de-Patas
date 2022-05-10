@@ -52,12 +52,68 @@
 /* página de entrada */
 
 #entrada{
-    width: 50vw;
+    width: 100%;
     height: 50vw;
     background: url(imagens/entrada.jpg) ;
     background-attachment: fixed;
     background-size: cover;
 }
 
+.formulario{
+    width: 400px;
+     margin:100px 870px;/*centraliza */
+     padding-top: 40px;
+}
 
+.usuario{
+    box-shadow: 1px 1px 5px #ffffff;      /* uma cor de fundo(sombra)   */
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 10px;
+}
 
+.conteudo{
+    text-align: center;
+}
+
+.conteudo p {
+    font-weight: bold;
+}
+
+.titulologin{
+    color:rgb(12, 23, 144);
+    font-size: 30px;
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+.login > label{
+    width: 100px;
+    color: rgb(169, 0, 0);
+    margin: 20px 10px 10px 10px ;
+    display: block;
+
+}
+
+.login > input{
+    width: 87%;
+    height: 25px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.login > button{
+    background-image: linear-gradient(to right, rgb(172, 0, 0), blue);
+    border-radius: 40px;
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    border: 0px;
+    margin-bottom: 15px;
+}
+
+.login > button:hover{
+    font-size: 30px ;
+    transform: scale(1);
+}
